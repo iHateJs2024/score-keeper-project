@@ -1,0 +1,42 @@
+.App {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 40px 40px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.score-keeper-title {
+  color: rgb(0, 128, 128);
+  text-align: center;
+  font-size: 64px;
+  margin: 0;
+}
+
+.team-score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-score-text {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.add-team-score-button {
+  background-color: rgb(0, 128, 128);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-team-score-button:hover {
+  background-color: rgb(0, 100, 100);
+}
+
+.add-team-score-button:active {
+  background-color: rgb(0, 80, 80);
+}
